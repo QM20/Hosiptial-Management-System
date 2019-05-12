@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="background_lable">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>845</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo_lable">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>31</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_button">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="capture_button">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>人员录入</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="train_button">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>150</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始训练</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="history_button">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>270</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>训练历史</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="setting_button">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>270</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>系统设置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="function_lable">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>60</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>功能选择</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

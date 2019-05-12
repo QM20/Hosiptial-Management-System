@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Dialog</class>
+ <widget class="QDialog" name="Main_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="Login_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>931</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="System_name_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>基于动作识别的跳伞演练系统</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="account_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>140</y>
+      <width>55</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>账号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Password_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>240</y>
+      <width>55</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>140</y>
+      <width>113</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>230</y>
+      <width>113</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>320</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>961</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

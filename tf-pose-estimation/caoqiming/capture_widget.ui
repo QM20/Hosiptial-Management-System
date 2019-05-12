@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="background_lable">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>845</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo_lable">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>31</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_button">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="capture_lable">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>181</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>功能选择</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="record_button">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>340</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>录入</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear_button">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>340</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空输入信息</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_lable">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>230</y>
+     <width>55</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>姓名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="class_lable">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>310</y>
+     <width>55</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>班级</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>230</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入姓名</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>300</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入班级</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

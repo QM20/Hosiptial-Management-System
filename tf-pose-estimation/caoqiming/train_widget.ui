@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="background_lable">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>845</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo_lable">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>31</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_button">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="capture_lable">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>181</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_lable1">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>60</y>
+     <width>101</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>实时视频分析</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_lable2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>60</y>
+     <width>81</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>本次训练结果</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="real_time_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>531</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_button">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>440</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一位</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="summary_button">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>440</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>训练总结</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_train_button">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>440</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出训练</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>80</y>
+     <width>256</width>
+     <height>351</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
